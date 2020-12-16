@@ -16,9 +16,9 @@ for student in student_scores:
   if score > 90:
     student_grades[student] = "Outstanding"
   elif score > 80:
-    student_grades[student] = "Exceeds Expectations"
+    student_grades[student] = "Great"
   elif score > 70:
-    student_grades[student] = "Acceptable"
+    student_grades[student] = "Pass"
   else:
     student_grades[student] = "Fail"
 # 🚨 Don't change the code below 👇
